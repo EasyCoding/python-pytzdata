@@ -5,7 +5,7 @@
 
 Name: python-%{pypi_name}
 Version: 2019.3
-Release: 1%{?dist}
+Release: 2%{?dist}
 Summary: %{appsum}
 
 License: MIT
@@ -14,6 +14,7 @@ Source0: %{pypi_source}
 BuildArch: noarch
 
 BuildRequires: python3-devel
+BuildRequires: python3-setuptools
 
 %description
 %{appdesc}.
@@ -41,5 +42,8 @@ Summary: %{appsum}
 %{python3_sitelib}/%{pypi_name}-*.egg-info
 
 %changelog
+* Wed Jun 24 2020 Vitaly Zaitsev <vitaly@easycoding.org> - 2019.3-2
+- Added python3-setuptools to build requirements.
+
 * Thu Jun 18 2020 Vitaly Zaitsev <vitaly@easycoding.org> - 2019.3-1
 - Initial SPEC release.
