@@ -4,8 +4,8 @@
 %global appdesc The Olson timezone database for Python.
 
 Name: python-%{pypi_name}
-Version: 2019.3
-Release: 3%{?dist}
+Version: 2020.1
+Release: 1%{?dist}
 Summary: %{appsum}
 
 License: MIT
@@ -42,6 +42,9 @@ Summary: %{appsum}
 %{python3_sitelib}/%{pypi_name}-*.egg-info
 
 %changelog
+* Mon Dec 14 2020 Vitaly Zaitsev <vitaly@easycoding.org> - 2020.1-1
+- Updated to version 2020.1.
+
 * Wed Jul 29 2020 Fedora Release Engineering <releng@fedoraproject.org> - 2019.3-3
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_33_Mass_Rebuild
 
