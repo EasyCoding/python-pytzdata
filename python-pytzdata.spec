@@ -5,7 +5,7 @@
 
 Name: python-%{pypi_name}
 Version: 2020.1
-Release: 1%{?dist}
+Release: 2%{?dist}
 Summary: %{appsum}
 
 License: MIT
@@ -42,6 +42,9 @@ Summary: %{appsum}
 %{python3_sitelib}/%{pypi_name}-*.egg-info
 
 %changelog
+* Wed Jan 27 2021 Fedora Release Engineering <releng@fedoraproject.org> - 2020.1-2
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_34_Mass_Rebuild
+
 * Mon Dec 14 2020 Vitaly Zaitsev <vitaly@easycoding.org> - 2020.1-1
 - Updated to version 2020.1.
 
